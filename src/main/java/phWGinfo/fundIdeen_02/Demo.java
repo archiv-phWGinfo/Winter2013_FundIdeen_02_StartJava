@@ -1,5 +1,8 @@
 package phWGinfo.fundIdeen_02;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /** Einfaches Gerüst um Demos schöner und kompakter zu schreiben. */
@@ -19,8 +22,13 @@ public class Demo {
      * @return die gelesen Zeile.
      */
     public String readLn() {
-        Scanner scanner = new Scanner(System.in);
-        return scanner.nextLine();
+        try {
+            BufferedReader bf = new BufferedReader(new InputStreamReader(System.in,"utf-8"));
+            return bf.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "error";
+        }
     }
 
 }

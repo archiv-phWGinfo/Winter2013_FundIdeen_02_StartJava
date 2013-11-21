@@ -10,11 +10,13 @@ public class Main {
         // Methoden Parametern
         // new DemoMethodenParameter().run();
 
-        Lebewesen m = new Mensch();
-        m.sagWas("was");
 
-        Lebewesen l = new Lebewesen();
-        l.sagWas("was");
+        String x=null;
+        if(x==null) {
+            System.out.println("x ist null");
+        } else {
+            System.out.println("x ist nicht null");
+        }
     }
 
 }
