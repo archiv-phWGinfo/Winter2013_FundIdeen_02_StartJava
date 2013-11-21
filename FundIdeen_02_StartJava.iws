@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c6e5398-3117-4a86-b063-ce16e5d68853" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Demo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/SucheDatei.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FundIdeen_02_StartJava.iws" afterPath="$PROJECT_DIR$/FundIdeen_02_StartJava.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Main.java" afterPath="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Main.java" />
     </list>
@@ -25,6 +23,19 @@
   <component name="DebuggerManager">
     <line_breakpoints>
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoMethodenParameter.java" line="14" class="phWGinfo.fundIdeen_02.DemoMethodenParameter" package="phWGinfo.fundIdeen_02">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Main.java" line="12" class="phWGinfo.fundIdeen_02.Main" package="phWGinfo.fundIdeen_02">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -81,7 +92,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="210" selection-end="210" vertical-scroll-proportion="0.59574467">
+            <state line="21" column="17" selection-start="358" selection-end="358" vertical-scroll-proportion="0.4916388">
               <folding />
             </state>
           </provider>
@@ -164,17 +175,17 @@
         <option value="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoMethodenParameter.java" />
         <option value="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Rekursion.java" />
         <option value="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/SucheDatei.java" />
+        <option value="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Main.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="528" />
-    <option name="width" value="800" />
-    <option name="height" value="600" />
+    <option name="x" value="1920" />
+    <option name="y" value="56" />
+    <option name="width" value="1024" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -260,6 +271,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FundIdeen_02_StartJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phWGinfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fundIdeen_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -293,7 +330,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RegexUtilComponent" text="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" flags="0" regex="(19|20)\d\d([- /.])(0[1-9]|1[012])\2(0[1-9]|[12][0-9]|3[01])" mode="0" />
-  <component name="RunManager" selected="Application.SucheDatei">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="phWGinfo.fundIdeen_02.Main" />
       <option name="VM_PARAMETERS" />
@@ -476,18 +513,22 @@
       <created>1384430173663</created>
       <updated>1384430173663</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Bereit für Vorlesung 5.&#10;paul">
+      <created>1385024850958</created>
+      <updated>1385024850958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="528" width="800" height="600" extended-state="0" />
+    <frame x="1920" y="56" width="1024" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39874738" sideWeight="0.49469495" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39721793" sideWeight="0.49469495" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39874738" sideWeight="0.4960212" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -498,8 +539,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27188328" sideWeight="0.5407098" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45929018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20961145" sideWeight="0.6599691" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3400309" sideWeight="0.98670757" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -545,7 +586,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="korrekturen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bereit für Vorlesung 5.&#10;paul" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -562,6 +603,7 @@
     <MESSAGE value="mit Modul." />
     <MESSAGE value="mit kleinen Syntaxbeispielen" />
     <MESSAGE value="korrekturen" />
+    <MESSAGE value="Bereit für Vorlesung 5.&#10;paul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -616,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="210" selection-end="210" vertical-scroll-proportion="0.59574467">
+        <state line="21" column="17" selection-start="358" selection-end="358" vertical-scroll-proportion="0.4916388">
           <folding />
         </state>
       </provider>
