@@ -40,9 +40,10 @@ public class HuffmanCoder extends Demo {
     // input is an array of frequencies, indexed by character code
     public HuffmanTree buildTree(Map<Character,Integer> charFreqs) {
 
+        // PriorityQueue ist eine sortie Liste
         PriorityQueue<HuffmanTree> trees = new PriorityQueue<HuffmanTree>();
 
-        // initially, we have a forest of leaves
+        // Am Anfang: nur Bäume die keine Kinder haben, und nicht verbunden sind
         // one for each non-empty character
         for (char c: charFreqs.keySet())
             trees.offer(new HuffmanLeaf(charFreqs.get(c), c));
@@ -87,10 +88,11 @@ public class HuffmanCoder extends Demo {
         System.out.println("Geben Sie die Eingabe: ");
         String test = readLn();
 
+        // Abbildung Buchstabe => Frequenzen
         Map<Character, Integer> charFreqs = new HashMap<Character, Integer>();
 
 
-        // read each character and record the frequencies
+        // Buchstaben zählen
         for (char c : test.toCharArray()) {
             if(charFreqs.containsKey(c))
                 charFreqs.put(c, charFreqs.get(c)+1);
@@ -109,7 +111,7 @@ public class HuffmanCoder extends Demo {
     }
 
     public static void main(String[] args) {
-
+        // neues Coder, Laufen
         new HuffmanCoder().run();
     }
 }
