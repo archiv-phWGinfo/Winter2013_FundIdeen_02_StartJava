@@ -9,7 +9,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws Throwable {
-        Sache s = new Sache();
+        Sache s = new Sache("feldWert", 3);
     }
 
 }

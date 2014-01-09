@@ -13,6 +13,11 @@ class Sache {
         System.out.println("Konstruktor wurde gerufen.");
     }
 
+    public Sache(String f, int num) {
+        feld1 = f;
+        x = num;
+    }
+
     String feld1 = "";
     int x = 0;
 
