@@ -26,6 +26,9 @@ public class DemoMethodenParameter {
         return count;
     }
 
+    public static void main(String[] args) {
+        new DemoMethodenParameter().run();
+    }
 
     public static void main(String[] args) {
         new DemoTabelle().run();
