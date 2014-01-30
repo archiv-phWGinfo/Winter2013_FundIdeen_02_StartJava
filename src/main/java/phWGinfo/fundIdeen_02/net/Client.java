@@ -23,10 +23,10 @@ public class Client extends Demo {
         InputStream input = socket.getInputStream();
         FileOutputStream out = new FileOutputStream("output.txt");
         println("Receiving to file output.txt" );
+        // now with a buffer
         byte[] buffer = new byte[512];
         int numRead = input.read(buffer);
-
-        while(numRead!=-1) {
+        while(numRead != -1) {
             out.write(buffer, 0, numRead);
             numRead = input.read(buffer);
         }
