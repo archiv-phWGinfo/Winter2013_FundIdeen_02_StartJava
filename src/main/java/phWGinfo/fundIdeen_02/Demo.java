@@ -31,4 +31,14 @@ public class Demo {
         }
     }
 
+    long chronometerStart = 0;
+
+    public void startChronometer() {
+        this.chronometerStart = System.currentTimeMillis();
+    }
+
+    public void printChronometer() {
+        println("Took " + ((System.currentTimeMillis()-chronometerStart)/1000.0) + " seconds.");
+    }
+
 }
