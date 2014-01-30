@@ -27,5 +27,9 @@ public class DemoMethodenParameter {
     }
 
 
+    public static void main(String[] args) {
+        new DemoTabelle().run();
+    }
+
 
 }

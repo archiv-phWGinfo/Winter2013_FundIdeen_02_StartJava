@@ -3,7 +3,7 @@ package phWGinfo.fundIdeen_02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DemoTabelle {
+public class DemoTabelle extends Demo {
 
     public void run() {
 
@@ -44,8 +44,11 @@ public class DemoTabelle {
         System.out.println("liste: " + liste);
         // erforschen Sie bitte die Methoden von java.util.List!
 
+    }
 
+    public static void main(String[] args) {
+        new DemoTabelle().run();
+    }
 
-}
 
 }

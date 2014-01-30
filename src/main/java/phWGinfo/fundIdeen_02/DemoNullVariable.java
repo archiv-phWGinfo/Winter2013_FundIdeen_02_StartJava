@@ -1,6 +1,6 @@
 package phWGinfo.fundIdeen_02;
 
-public class DemoNullVariable {
+public class DemoNullVariable extends Demo {
 
     public void run() {
 
@@ -17,6 +17,10 @@ public class DemoNullVariable {
         o = null;
         // das würde eine "NullPointerException" auslösen
         // System.out.println("Ist o etwas?" + o.equals("something"));
+    }
+
+    public static void main(String[] args) {
+        new DemoTabelle().run();
     }
 
 }
