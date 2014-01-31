@@ -36,6 +36,10 @@ public class URLFetcher extends Thread {
             // process stream
             int numRead=in.read(buffer);
             while(numRead!=-1) {
+                // do something with the buffer
+                // (e.g. could count, or compress, or...)
+                // for now just sleep
+                Thread.sleep(10);
                 out.write(buffer, 0, numRead);
                 numRead = in.read(buffer);
             }
@@ -45,7 +49,7 @@ public class URLFetcher extends Thread {
             out.flush();
             out.close();
             System.out.println("Fetched " + url + " in file " + file + ".");
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

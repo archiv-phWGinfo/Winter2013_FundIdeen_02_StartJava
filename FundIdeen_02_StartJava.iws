@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c6e5398-3117-4a86-b063-ce16e5d68853" name="Default" comment="quickfix for jdk 1.6&#10;paul&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoMethodenParameter.java" afterPath="$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoMethodenParameter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FundIdeen_02_StartJava.iws" afterPath="$PROJECT_DIR$/FundIdeen_02_StartJava.iws" />
-    </list>
+    <list default="true" id="4c6e5398-3117-4a86-b063-ce16e5d68853" name="Default" comment="quickfix for jdk 1.6&#10;paul&#10;" />
     <ignored path="FundIdeen_02_StartJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,6 +94,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoMultithreading.java" line="15" class="phWGinfo.fundIdeen_02.DemoMultithreading" package="phWGinfo.fundIdeen_02">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -147,7 +159,7 @@
       <file leaf-file-name="DemoMultithreading.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoMultithreading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1056">
+            <state line="33" column="0" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1056">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,10 +167,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Demo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="50" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="752">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="URLFetcher.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/URLFetcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.25263157" vertical-offset="0" max-vertical-offset="944">
+            <state line="41" column="31" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.25265393" vertical-offset="537" max-vertical-offset="1008">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,10 +221,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="435" />
-    <option name="y" value="22" />
+    <option name="x" value="461" />
+    <option name="y" value="23" />
     <option name="width" value="839" />
-    <option name="height" value="971" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -245,76 +266,6 @@
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="phWGinfo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="phWGinfo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="fundIdeen_02">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="phWGinfo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="fundIdeen_02">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="net">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -572,7 +523,7 @@
       <workItem from="1389867568113" duration="4217000" />
       <workItem from="1390080622095" duration="3233000" />
       <workItem from="1390395745073" duration="2266000" />
-      <workItem from="1391070190919" duration="4925000" />
+      <workItem from="1391070190919" duration="11216000" />
     </task>
     <task id="LOCAL-00001" summary="erstes Leben.">
       <created>1383820249145</created>
@@ -630,10 +581,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33812000" />
+    <option name="totallyTimeSpent" value="40103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="435" y="22" width="839" height="971" extended-state="0" />
+    <frame x="461" y="23" width="839" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -643,7 +594,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.46924177" sideWeight="0.49469495" order="3" side_tool="false" content_ui="tabs" x="940" y="700" width="707" height="317" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.46924177" sideWeight="0.49469495" order="3" side_tool="false" content_ui="tabs" x="247" y="761" width="804" height="365" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39874738" sideWeight="0.4960212" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -655,7 +606,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2181168" sideWeight="0.49809885" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33702883" sideWeight="0.98670757" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28612304" sideWeight="0.98670757" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -994,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="413" selection-end="413" vertical-scroll-proportion="0.12567325" vertical-offset="138" max-vertical-offset="752">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoTabelle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.112280704" vertical-offset="0" max-vertical-offset="944">
@@ -1015,9 +959,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="16" selection-start="9194" selection-end="9194" vertical-scroll-proportion="0.0" vertical-offset="2534" max-vertical-offset="4704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="50" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/DemoMultithreading.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="1056">
+        <state line="33" column="0" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1056">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1026,7 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/phWGinfo/fundIdeen_02/URLFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.25263157" vertical-offset="0" max-vertical-offset="944">
+        <state line="41" column="31" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.25265393" vertical-offset="537" max-vertical-offset="1008">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
